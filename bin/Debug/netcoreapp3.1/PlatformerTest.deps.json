@@ -1,0 +1,144 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PlatformerTest/1.0.0": {
+        "dependencies": {
+          "Dcrew.Spatial": "1.6.3.1",
+          "MonoGame.Content.Builder.Task": "3.8.0.1641",
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
+        },
+        "runtime": {
+          "PlatformerTest.dll": {}
+        }
+      },
+      "Apos.History/0.1.0": {
+        "dependencies": {
+          "Optional": "4.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Apos.History.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Dcrew.Spatial/1.6.3.1": {
+        "dependencies": {
+          "Apos.History": "0.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Dcrew.Spatial.dll": {
+            "assemblyVersion": "1.6.3.1",
+            "fileVersion": "1.6.3.1"
+          }
+        }
+      },
+      "MonoGame.Content.Builder.Task/3.8.0.1641": {},
+      "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+        "runtime": {
+          "lib/netstandard2.0/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.8.0.1641",
+            "fileVersion": "3.8.0.1641"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2-2.0.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.0.12.0"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.0.12.0"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Optional/4.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Optional.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlatformerTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Apos.History/0.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tinynE+pThdCLFEAb04a+BU/rZTLIg+oepLPYxJCjM6kBcOtLcUHlhUiJtx2VaxwJyDzDkxIAPIOMDDVme30wg==",
+      "path": "apos.history/0.1.0",
+      "hashPath": "apos.history.0.1.0.nupkg.sha512"
+    },
+    "Dcrew.Spatial/1.6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oLJnfui1NNvILkg3b2m6tIMyLLnFwCYoYUuGHP1kgMLIEy2JHPsNej0Oc2zod4UD15OxeIBO/tIgHcylsy4Pg==",
+      "path": "dcrew.spatial/1.6.3.1",
+      "hashPath": "dcrew.spatial.1.6.3.1.nupkg.sha512"
+    },
+    "MonoGame.Content.Builder.Task/3.8.0.1641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oHA60q9MhkqGnSiJlXosdynD400sQ/j1Ef+0XkJYIQT4Io9RQ6Zk8i0vjpnIbQ0PgsoaQN3IRYjNzkhqq3uUGA==",
+      "path": "monogame.content.builder.task/3.8.0.1641",
+      "hashPath": "monogame.content.builder.task.3.8.0.1641.nupkg.sha512"
+    },
+    "MonoGame.Framework.DesktopGL/3.8.0.1641": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
+      "path": "monogame.framework.desktopgl/3.8.0.1641",
+      "hashPath": "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    },
+    "Optional/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q9NdZ39K/tPuV8JDs6ntRxW3idN9J4jSoBK/2ovld+Gh8if4Yhs+OTPvI84mN5YGAI3pzbhLcNUrm+VFKutC3Q==",
+      "path": "optional/4.0.0",
+      "hashPath": "optional.4.0.0.nupkg.sha512"
+    }
+  }
+}

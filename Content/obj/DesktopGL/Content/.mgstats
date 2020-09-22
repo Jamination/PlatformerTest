@@ -1,0 +1,5 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/Sprites/Tree1.png","C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/bin/DesktopGL/Content/Sprites/Tree1.xnb","TextureProcessor","Texture2DContent",1509,17725,0.1450892
+"C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/Sprites/Wall.png","C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/bin/DesktopGL/Content/Sprites/Wall.xnb","TextureProcessor","Texture2DContent",517,4181,0.1085243
+"C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/Sprites/Wall_1x1.png","C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/bin/DesktopGL/Content/Sprites/Wall_1x1.xnb","TextureProcessor","Texture2DContent",142,4181,0.1199787
+"C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/Sprites/Wall_2x2.png","C:/Users/james/OneDrive/Desktop/Projects/PlatformerTest/Content/bin/DesktopGL/Content/Sprites/Wall_2x2.xnb","TextureProcessor","Texture2DContent",248,16469,0.1059257

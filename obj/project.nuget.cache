@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "IYNUNZN8UMLRlI+wkxHFmnvdQi3vSeaUz9u+/kObQcOzumk41asfr5BDvGpTwj4aiLhUb+7hKbS0rT7qrsFB9g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\james\\OneDrive\\Desktop\\Projects\\PlatformerTest\\PlatformerTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\james\\.nuget\\packages\\apos.history\\0.1.0\\apos.history.0.1.0.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\dcrew.spatial\\1.6.3.1\\dcrew.spatial.1.6.3.1.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\james\\.nuget\\packages\\optional\\4.0.0\\optional.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
