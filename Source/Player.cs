@@ -21,6 +21,12 @@ namespace PlatformerTest
 
         public static CollisionInfo CollisionInfo;
 
+        public const uint TimeCount = 60 * 10;
+        
+        public static Vector2[] PreviousPositions = new Vector2[TimeCount];
+        public static Vector2[] PreviousVelocities = new Vector2[TimeCount];
+        public static uint FrameCount;
+
         public static void Load()
         {
             Transform = new Transform();
@@ -36,6 +42,8 @@ namespace PlatformerTest
             Sprite.Centered = true;
             
             Physics = new Physics();
+
+            FrameCount = (uint)PreviousVelocities.Length;
         }
 
         public static void Update()
@@ -64,6 +72,26 @@ namespace PlatformerTest
 
             Transform.Position = Physics.ProjectedPos;
             Camera.Position = Vector2.Lerp(Camera.Position, Transform.Position, .15f);
+            
+            if (Input.IsKeyDown(Keys.E))
+            {
+                if (FrameCount < TimeCount - 1)
+                {
+                    Physics.Velocity = -PreviousVelocities[FrameCount];
+                    Transform.Position = PreviousPositions[FrameCount];
+                    FrameCount++;
+                }
+            }
+            else
+            {
+                if (FrameCount > 0)
+                    FrameCount--;
+                else
+                    FrameCount = TimeCount - 1;
+
+                PreviousVelocities[FrameCount] = Physics.Velocity;
+                PreviousPositions[FrameCount] = Transform.Position;
+            }
         }
 
         public static void Draw()
