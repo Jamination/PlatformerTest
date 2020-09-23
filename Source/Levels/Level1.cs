@@ -62,9 +62,7 @@ namespace PlatformerTest.Levels
 			Functions.SpawnLevelObject(128, 224, ObjType.Wall_2x2);
 			Functions.SpawnLevelObject(64, 224, ObjType.Wall_2x2);
 			Functions.SpawnLevelObject(0, 224, ObjType.Wall_2x2);
-			Functions.SpawnLevelObject(-64, 224, ObjType.Wall_2x2);
-			Functions.SpawnLevelObject(-128, 224, ObjType.Wall_2x2);
-			Functions.SpawnLevelObject(-192, 224, ObjType.Wall_2x2);
+			Functions.SpawnLevelObject(-288, 224, ObjType.Wall_2x2);
 			Functions.SpawnLevelObject(-480, -160, ObjType.Wall_2x2);
 			Functions.SpawnLevelObject(-544, -160, ObjType.Wall_2x2);
 			Functions.SpawnLevelObject(-512, -224, ObjType.Wall_2x2);
@@ -148,7 +146,6 @@ namespace PlatformerTest.Levels
 			Functions.SpawnLevelObject(-744, 36, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(-712, 36, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(-776, 36, ObjType.Wall_1x1);
-			Functions.SpawnLevelObject(-208, 272, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(-176, 272, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(-144, 272, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(-112, 272, ObjType.Wall_1x1);

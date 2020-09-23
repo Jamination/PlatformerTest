@@ -24,10 +24,10 @@ namespace PlatformerTest
         public static void Update()
         {
             Transform = Matrix.CreateTranslation(new Vector3(
-                                       new Vector2((int) -Position.X, (int) -Position.Y), 0f)) * Matrix.CreateScale(Zoom) *
-                                   Matrix.CreateRotationZ(Rotation) *
-                                   Matrix.CreateTranslation(new Vector3(Data.ScreenCentre.X,
-                                       Data.ScreenCentre.Y, 0f));
+                   new Vector2((int) -Position.X, (int) -Position.Y), 0f)) * Matrix.CreateScale(Zoom) *
+               Matrix.CreateRotationZ(Rotation) *
+               Matrix.CreateTranslation(new Vector3(Data.ScreenCentre.X,
+                   Data.ScreenCentre.Y, 0f));
         }
     }
 }

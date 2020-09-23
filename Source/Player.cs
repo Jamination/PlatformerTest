@@ -11,6 +11,10 @@ namespace PlatformerTest
         public const int MaxVelocityY = 1000;
         public const int MoveSpeed = 200;
         public const int JumpHeight = -480;
+        
+        public const uint TimeCount = 60 * 10;
+        
+        public static uint FrameCount;
 
         public static bool IsOnFloor = false;
 
@@ -20,9 +24,6 @@ namespace PlatformerTest
         public static Physics Physics;
 
         public static CollisionInfo CollisionInfo;
-
-        public const uint TimeCount = 60 * 10;
-        public static uint FrameCount;
         
         public static Vector2[] PreviousPositions = new Vector2[TimeCount];
         public static Vector2[] PreviousVelocities = new Vector2[TimeCount];
@@ -67,7 +68,7 @@ namespace PlatformerTest
             Physics.LastPos = Transform.Position;
             Physics.ProjectedPos = Transform.Position + Physics.Velocity * Time.DeltaTime;
             IsOnFloor = false;
-            
+
             Functions.CheckStaticCollisions(ref Transform, ref Physics, ref Hitbox, out CollisionInfo);
 
             Transform.Position = Physics.ProjectedPos;

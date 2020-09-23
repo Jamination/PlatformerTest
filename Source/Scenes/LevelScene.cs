@@ -12,6 +12,7 @@ namespace PlatformerTest.Scenes
         {
             Data.GameInstance.IsMouseVisible = false;
             Camera.Zoom = 1f;
+            Camera.Position = Player.Transform.Position;
 
             Player.Load();
             

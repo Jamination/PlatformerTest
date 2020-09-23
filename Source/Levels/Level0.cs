@@ -4,7 +4,7 @@ namespace PlatformerTest.Levels
 	{
 		public static void Load()
 		{
-			Functions.SetPlayerSpawnPoint(-224, -784);
+			Functions.SetPlayerSpawnPoint(-220, -784);
 			Functions.SpawnLevelObject(-16, 48, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(16, 48, ObjType.Wall_1x1);
 			Functions.SpawnLevelObject(48, 48, ObjType.Wall_1x1);
