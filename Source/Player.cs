@@ -22,10 +22,10 @@ namespace PlatformerTest
         public static CollisionInfo CollisionInfo;
 
         public const uint TimeCount = 60 * 10;
+        public static uint FrameCount;
         
         public static Vector2[] PreviousPositions = new Vector2[TimeCount];
         public static Vector2[] PreviousVelocities = new Vector2[TimeCount];
-        public static uint FrameCount;
 
         public static void Load()
         {
