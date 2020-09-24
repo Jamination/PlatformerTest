@@ -28,3 +28,4 @@ C:\Users\james\OneDrive\Desktop\Projects\PlatformerTest\bin\Debug\netcoreapp3.1\
 C:\Users\james\OneDrive\Desktop\Projects\PlatformerTest\bin\Debug\netcoreapp3.1\Apos.History.dll
 C:\Users\james\OneDrive\Desktop\Projects\PlatformerTest\bin\Debug\netcoreapp3.1\Dcrew.Spatial.dll
 C:\Users\james\OneDrive\Desktop\Projects\PlatformerTest\bin\Debug\netcoreapp3.1\Optional.dll
+C:\Users\james\OneDrive\Desktop\Projects\PlatformerTest\bin\Debug\netcoreapp3.1\Coroutine.dll

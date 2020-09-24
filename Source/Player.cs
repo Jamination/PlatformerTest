@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Coroutine;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using PlatformerTest.Components;
@@ -15,8 +17,6 @@ namespace PlatformerTest
         public const uint TimeCount = 60 * 10;
         
         public static uint FrameCount;
-
-        public static bool IsOnFloor = false;
 
         public static Transform Transform;
         public static Sprite Sprite;
@@ -67,7 +67,6 @@ namespace PlatformerTest
 
             Physics.LastPos = Transform.Position;
             Physics.ProjectedPos = Transform.Position + Physics.Velocity * Time.DeltaTime;
-            IsOnFloor = false;
 
             Functions.CheckStaticCollisions(ref Transform, ref Physics, ref Hitbox, out CollisionInfo);
 

@@ -67,6 +67,25 @@ namespace PlatformerTest
             new Rectangle((pos1 + HB1.Offset).ToPoint(), HB1.Size.ToPoint()),
             new Rectangle((pos2 + HB2.Offset).ToPoint(), HB2.Size.ToPoint()));
 
+        public static Rectangle GetBounds(ref Hitbox hitbox, ref Transform transform) => new Rectangle(
+            transform.Position.ToPoint() + hitbox.Offset.ToPoint(), hitbox.Size.ToPoint() * transform.Scale.ToPoint());
+
+        public static int GetObjectAtPos(Vector2 position)
+        {
+            var objectsNearby = Pool.StaticObjectTree.Query(position).ToArray();
+
+            for (uint i = 0; i < objectsNearby.Length; i++)
+            {
+                ref var gameObject = ref Pool.StaticObjects[objectsNearby[i].ObjectID];
+                if (GetBounds(ref gameObject.Hitbox, ref gameObject.Transform).Contains(position))
+                    return (int)gameObject.ID;
+            }
+
+            return -1;
+        }
+
+        public static bool IsObjectAt(Vector2 position) => GetObjectAtPos(position) != -1;
+
         public static void CheckStaticCollisions(ref Transform transform, ref Physics physics, ref Hitbox hitbox, out CollisionInfo info)
         {
             info = new CollisionInfo();

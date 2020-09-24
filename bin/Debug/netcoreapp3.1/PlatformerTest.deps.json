@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "PlatformerTest/1.0.0": {
         "dependencies": {
+          "Coroutine": "2.0.0",
           "Dcrew.Spatial": "1.6.3.1",
           "MonoGame.Content.Builder.Task": "3.8.0.1641",
           "MonoGame.Framework.DesktopGL": "3.8.0.1641"
@@ -24,6 +25,14 @@
           "lib/netstandard2.0/Apos.History.dll": {
             "assemblyVersion": "0.1.0.0",
             "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "Coroutine/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Coroutine.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -111,6 +120,13 @@
       "sha512": "sha512-tinynE+pThdCLFEAb04a+BU/rZTLIg+oepLPYxJCjM6kBcOtLcUHlhUiJtx2VaxwJyDzDkxIAPIOMDDVme30wg==",
       "path": "apos.history/0.1.0",
       "hashPath": "apos.history.0.1.0.nupkg.sha512"
+    },
+    "Coroutine/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CQoKpexi5ojzTU4nVOTRwxaxqdkALh83TDZNnZ6O6plPGY8ChQ7sBE6xwt1iWS95ZmjS+tIVrVxHfv6g3CsySg==",
+      "path": "coroutine/2.0.0",
+      "hashPath": "coroutine.2.0.0.nupkg.sha512"
     },
     "Dcrew.Spatial/1.6.3.1": {
       "type": "package",

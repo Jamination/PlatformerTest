@@ -72,7 +72,7 @@ namespace PlatformerTest.Scenes
             if (Input.IsLeftMouseReleased() && ObjectBeingPlaced.Active && !TileMode)
                 Functions.SpawnLevelObject(ObjectBeingPlaced.Transform.Position.X,
                     ObjectBeingPlaced.Transform.Position.Y, ObjectBeingPlaced.Type);
-            else if (Input.IsLeftMouseDown() && ObjectBeingPlaced.Active && TileMode && LastPlacedObject != ObjectBeingPlaced.Transform.Position.X + ObjectBeingPlaced.Transform.Position.Y)
+            else if (Input.IsLeftMouseDown() && ObjectBeingPlaced.Active && TileMode && LastPlacedObject != ObjectBeingPlaced.Transform.Position.X + ObjectBeingPlaced.Transform.Position.Y && !Functions.IsObjectAt(Data.MousePosition))
             {
                 Functions.SpawnLevelObject(
                     ObjectBeingPlaced.Transform.Position.X / ObjectBeingPlaced.Sprite.Texture.Width *

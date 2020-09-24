@@ -27,6 +27,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Coroutine": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
         "Dcrew.Spatial": {
           "target": "Package",
           "version": "[1.6.3.1, )"

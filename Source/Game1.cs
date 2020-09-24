@@ -1,4 +1,5 @@
 ﻿﻿using System;
+ using Coroutine;
  using PlatformerTest;
  using Microsoft.Xna.Framework;
  using Microsoft.Xna.Framework.Graphics;
@@ -87,6 +88,7 @@
             Time.DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             
             base.Update(gameTime);
+            CoroutineHandler.Tick(gameTime.ElapsedGameTime.TotalSeconds);
             
             Input.UpdateState();
 

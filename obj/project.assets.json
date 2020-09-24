@@ -14,6 +14,15 @@
           "lib/netstandard2.0/Apos.History.dll": {}
         }
       },
+      "Coroutine/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Coroutine.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Coroutine.dll": {}
+        }
+      },
       "Dcrew.Spatial/1.6.3.1": {
         "type": "package",
         "dependencies": {
@@ -104,6 +113,19 @@
         "lib/net45/Apos.History.xml",
         "lib/netstandard2.0/Apos.History.dll",
         "lib/netstandard2.0/Apos.History.xml"
+      ]
+    },
+    "Coroutine/2.0.0": {
+      "sha512": "CQoKpexi5ojzTU4nVOTRwxaxqdkALh83TDZNnZ6O6plPGY8ChQ7sBE6xwt1iWS95ZmjS+tIVrVxHfv6g3CsySg==",
+      "type": "package",
+      "path": "coroutine/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "coroutine.2.0.0.nupkg.sha512",
+        "coroutine.nuspec",
+        "lib/netstandard2.0/Coroutine.dll",
+        "lib/netstandard2.0/Coroutine.xml"
       ]
     },
     "Dcrew.Spatial/1.6.3.1": {
@@ -250,6 +272,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Coroutine >= 2.0.0",
       "Dcrew.Spatial >= 1.6.3.1",
       "MonoGame.Content.Builder.Task >= 3.8.0.1641",
       "MonoGame.Framework.DesktopGL >= 3.8.0.1641"
@@ -292,6 +315,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Coroutine": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Dcrew.Spatial": {
             "target": "Package",
             "version": "[1.6.3.1, )"
